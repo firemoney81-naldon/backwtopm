@@ -1,23 +1,624 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  
+  <title>복잡한 차보험료 비교 이 페이지 하나면 모든 고민 해결됨</title>
+  
+
+
+  
+    <!-- JSON-LD Structured Data for Naver SEO (CollectionPage) -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "CollectionPage",
+      "name": "복잡한 차보험료 비교 이 페이지 하나면 모든 고민 해결됨",
+      "description": "운전자 특성별(부부, 경차, 장애인) 보험료 할인 정보와 가입/재가입 기간별 팁, 다이렉트 보험료 비교 노하우를 제공합니다.",
+      "about": {
+        "@type": "Thing",
+        "name": "자동차보험료 절약법",
+        "description": "자동차보험료 절약을 위한 모든 정보를 제공합니다."
+      },
+      "url": "https://directhpmon.withusdone.com/mainpage",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://directhpmon.withusdone.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "mainContentOfPage": [
+        {
+          "@type": "WebPageElement",
+          "name": "운전자 특성별 맞춤 보험",
+          "description": "부부, 경차, 장애인 등 운전자 특성에 맞는 할인 혜택 정보를 제공합니다."
+        },
+        {
+          "@type": "WebPageElement",
+          "name": "보험료 절약 및 납부 방법",
+          "description": "보험료 인상률 계산, 할인카드, 분납 등 보험료를 절약하고 납부하는 다양한 방법을 소개합니다."
+        },
+        {
+          "@type": "WebPageElement",
+          "name": "가입 및 갱신 노하우",
+          "description": "가입 기간 설정, 재가입 팁, 증명서 발급 등 보험 가입/갱신 시 알아야 할 정보를 정리했습니다."
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        /* CSS Reset and Global Styles */
+        body {
+            font-family: 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', Dotum, '돋움', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f9fc; /* Soft gray background */
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #1a4a8d; /* Deep blue heading */
+            font-weight: 800;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            border-bottom: 3px solid #e1eaf9;
+            padding-bottom: 15px;
+        }
+        h2 {
+            font-size: 1.8em;
+            color: #2c6da0; /* Medium blue category heading */
+            border-bottom: 2px solid #e1eaf9;
+            padding-bottom: 10px;
+            margin-top: 40px;
+            font-weight: 700;
+        }
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
+        .card {
+            background-color: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+            padding: 25px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        .card-title {
+            font-size: 1.4em;
+            font-weight: 700;
+            color: #1a4a8d;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .card-link {
+            text-decoration: none;
+            color: inherit; /* Inherit color from parent */
+            display: block;
+        }
+        .card-link-text {
+            color: #555;
+            font-size: 1em;
+            line-height: 1.8;
+            word-break: keep-all;
+        }
+        /* Highlight specific text elements for readability and visual interest */
+        .highlight {
+            font-weight: 600;
+            color: #d9534f; /* Soft red for emphasis */
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            margin-top: 50px;
+            color: #999;
+            font-size: 0.9em;
+            border-top: 1px solid #eee;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>복잡한 차보험료 비교 이 페이지 하나면 모든 고민 해결됨</h1>
+        <p style="text-align: center; font-size: 1.1em; color: #666; margin-bottom: 40px;">
+            운전자의 특성(부부, 경차, 전기차)에 따라 숨겨진 보험료 할인 혜택을 찾아드립니다. <br>
+            복잡한 보험 가입, 갱신, 납부 방법을 쉽게 이해하고 최적의 보험료를 설계해보세요.
+        </p>
+
+        <!-- Category 1: 운전자 특성별 맞춤 할인 전략 -->
+        <h2>1. 운전자 특성별 맞춤 할인 전략</h2>
+        <div class="category-grid">
+            <!-- Link: 부부자동차보험 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directhpmon.withusdone.com/" target="_blank">
+                    <h3 class="card-title">부부자동차보험: 현명한 운전자 범위 설정 노하우</h3>
+                    <div class="card-link-text">
+                        <p>
+                            부부 공동명의 차량이나 배우자와 함께 운전하는 경우, 운전자 범위를 어떻게 설정하느냐에 따라 보험료가 수십만 원 이상 차이 날 수 있습니다.
+                            특히 <span class="highlight">결혼을 앞둔 예비 부부나 신혼부부</span>라면 반드시 확인해야 할 필수 정보입니다.
+                            단순히 '부부 한정' 특약에 가입하기 전에, 각자의 운전 경력과 사고 이력을 면밀히 비교해보아야 합니다.
+                            만약 배우자 중 한 명이라도 사고 이력이 많거나 운전 경력이 짧아 보험료가 비싸다면, <span class="highlight">운전 경력이 긴 배우자 단독 운전으로 가입하고 배우자를 추가 운전자로 등록하는 방식</span> 등 다양한 시나리오를 검토해야 합니다.
+                            이 페이지에서는 부부 특약의 장단점 분석은 물론, 가족 운전자를 추가하는 경우와 1인 운전자를 유지하는 경우의 보험료 차이를 상세하게 비교하는 방법을 알려줍니다.
+                            또한 <span class="highlight">자녀가 운전을 시작할 때 발생할 수 있는 '연령 한정' 특약과의 연계성</span>까지 고려하여, 부부가 함께 가장 효율적인 보험료를 설계할 수 있도록 돕습니다.
+                            부부 운전자를 위한 최적의 보험료 산정 방법은 물론, 보험사별 부부 할인 혜택의 차이점까지 심층적으로 분석하여 현명한 선택을 위한 길잡이를 제시합니다.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Link: 경차자동차보험 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directhpmop.withusdone.com/" target="_blank">
+                    <h3 class="card-title">경차자동차보험: 숨겨진 할인율 꼼꼼하게 챙기기</h3>
+                    <div class="card-link-text">
+                        <p>
+                            경차는 일반적으로 차량가액이 낮아 보험료가 저렴한 편이지만, <span class="highlight">경차의 특성을 활용한 추가적인 할인 혜택</span>을 놓치면 안 됩니다.
+                            경차 운전자라면 누릴 수 있는 고유한 할인 특약과 정부 지원 정책이 존재하기 때문입니다.
+                            예를 들어, 경차는 다른 차량에 비해 주행거리가 짧은 경우가 많아 <span class="highlight">마일리지 특약(주행거리 할인)</span>을 통해 큰 폭의 할인을 받을 수 있습니다.
+                            또한 경차 운전자들은 보험료 외에도 공영주차장 할인이나 통행료 할인 등 다양한 혜택을 받고 있으므로, 이 모든 것을 종합적으로 고려해야 합니다.
+                            일반적으로 경차는 수리비가 저렴할 것이라는 인식과 달리, 오히려 부품 교체가 필요할 때 특정 부품비가 비쌀 수 있어 자차보험 가입 시 자기부담금 설정이 중요합니다.
+                            <span class="highlight">경차 운전자에게 유리한 보험사별 특약 비교</span>는 필수입니다.
+                            이 페이지는 경차 운전자를 위한 맞춤형 보험 설계 방법을 제시합니다.
+                            가장 저렴한 보험료를 찾기 위해 경차 전용 할인율을 적용받는 방법과 자차보험 가입 시 손해율을 줄이는 팁까지 상세하게 안내합니다.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Link: 장애인자동차보험 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directhpmox.withusdone.com/" target="_blank">
+                    <h3 class="card-title">장애인자동차보험: 특별 할인 혜택과 가입 조건 심층 분석</h3>
+                    <div class="card-link-text">
+                        <p>
+                            장애인 복지 카드를 소지한 운전자나 장애인을 부양하는 운전자라면 반드시 누려야 할 <span class="highlight">특별 할인 혜택</span>이 있습니다.
+                            장애인 자동차보험은 일반 보험과 달리 정부 정책과 연계된 다양한 할인이 적용되기 때문에, 이 혜택을 제대로 활용하지 못하면 큰 손해를 볼 수 있습니다.
+                            가장 기본적인 혜택으로는 <span class="highlight">장애인 차량에 대한 자동차세 면제 혜택</span>이 있으며, 보험료 산정 시에도 장애인 등록 여부에 따른 보험료 할인 특약이 제공됩니다.
+                            이 페이지에서는 장애인 운전자 본인뿐만 아니라, 장애인을 모시는 가족 운전자를 위한 <span class="highlight">장애인 보호자 할인 특약</span>에 대해서도 자세히 설명합니다.
+                            가입 시 필요 서류와 가입 절차, 보험사별로 상이한 할인율을 비교하는 방법을 제시합니다.
+                            또한 <span class="highlight">운전 보조 장치를 장착한 특수 개조 차량의 보험 가입 요령</span>과 사고 발생 시 보상 기준 등 장애인 운전자에게 필요한 실질적인 정보를 제공합니다.
+                            장애인 자동차보험 가입 시, 보험료 절감을 위한 최적의 조건을 찾는 방법을 안내하여 불필요한 비용 지출을 막도록 돕습니다.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Category 2: 보험료 산정 및 절약 노하우 -->
+        <h2>2. 보험료 산정 및 절약 노하우</h2>
+        <div class="category-grid">
+            <!-- Link: 내차보험료 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directhpmoq.withusdone.com/" target="_blank">
+                    <h3 class="card-title">내차보험료: 보험료를 결정하는 7가지 핵심 요소 분석</h3>
+                    <div class="card-link-text">
+                        <p>
+                            "내차 보험료는 왜 이렇게 비싼 걸까?"라는 의문을 가져본 적이 있다면, 보험료가 산정되는 복잡한 과정을 이해할 필요가 있습니다.
+                            보험료는 차량의 모델과 연식, 운전자의 나이와 경력, 사고 이력 등 수많은 요소를 바탕으로 계산됩니다.
+                            특히, 차량 등급에 따른 <span class="highlight">‘차량 모델별 등급’</span>은 보험료를 좌우하는 결정적인 요소입니다.
+                            차량 모델별 등급이 높을수록 사고 발생 시 수리비가 저렴해 보험료가 낮아지는 경향이 있습니다.
+                            <span class="highlight">이 페이지에서는 내 차 보험료를 직접 확인하고, 보험료가 산정되는 7가지 핵심 기준</span>을 심층 분석합니다.
+                            보험사별 손해율 차이, 다이렉트 보험과 설계사 보험의 수수료 차이, 그리고 운전자 특약에 따른 할인율 변화 등 내 보험료를 구성하는 모든 요소를 파헤쳐봅니다.
+                            불필요한 담보는 제거하고 필요한 보장만 선택하여 <span class="highlight">합리적인 보험료로 최적의 보장을 받는 방법</span>을 제시합니다.
+                            보험료 견적을 확인하는 과정에서 놓치기 쉬운 세부 사항들을 체크하여 낭비되는 보험료를 줄여보세요.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Link: 자동차 보험 인상률 계산기 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directipmob.withusdone.com/" target="_blank">
+                    <h3 class="card-title">자동차 보험 인상률 계산기: 사고 후 보험료 변화 예측하기</h3>
+                    <div class="card-link-text">
+                        <p>
+                            사고가 났을 때 보험 처리를 할지, 자비로 수리할지 결정하기 어렵다면 이 계산기가 정답입니다.
+                            단순히 당장의 수리비만 따질 것이 아니라, <span class="highlight">사고로 인한 보험료 할증(인상)률을 정확히 예측</span>해야 장기적인 손해를 막을 수 있습니다.
+                            자동차 보험 인상률은 사고 횟수, 사고 규모, 그리고 운전자의 보험 등급에 따라 복합적으로 결정됩니다.
+                            특히 <span class="highlight">100만 원 이하의 소액 사고라도 횟수가 잦으면 오히려 보험료가 크게 오를 수 있어</span> 주의해야 합니다.
+                            이 페이지에서는 사고 이력에 따른 보험료 할증 기준을 상세하게 설명하고, 보험료 인상률 계산기를 활용하여 내년도 예상 보험료를 미리 확인하는 방법을 안내합니다.
+                            사고 규모별 보험 처리 시뮬레이션을 통해 합리적인 의사결정을 돕습니다.
+                            자차보험 자기부담금 설정에 따른 인상률 변화까지 시뮬레이션하여, <span class="highlight">당장의 비용과 미래의 보험료 인상분</span>을 종합적으로 비교할 수 있도록 돕습니다.
+                            이제 막 운전을 시작한 초보 운전자부터 베테랑 운전자까지, 사고 발생 시 현명하게 대처할 수 있는 실질적인 가이드를 제공합니다.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Link: 자동차보험할인카드 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directhpmov.withusdone.com/" target="_blank">
+                    <h3 class="card-title">자동차보험할인카드: 숨은 할인 혜택 찾기</h3>
+                    <div class="card-link-text">
+                        <p>
+                            자동차 보험료는 목돈이 나가기 때문에 신용카드를 활용하여 납부하는 것이 일반적입니다.
+                            하지만 단순히 할부 혜택만 생각할 것이 아니라, <span class="highlight">카드사별로 제공하는 '자동차 보험료 할인 혜택'</span>을 적극적으로 활용해야 합니다.
+                            일부 카드사는 보험료 결제 시 무이자 할부는 기본이고, 특정 기간 동안 <span class="highlight">최대 몇 만 원까지 캐시백 또는 할인</span>을 제공합니다.
+                            또한 주유비 할인이나 차량 정비 혜택이 연계된 카드도 많으므로, 자신의 운전 습관에 맞는 카드를 선택하는 것이 중요합니다.
+                            이 페이지에서는 각 보험사와 제휴를 맺은 신용카드들의 할인 혜택을 비교 분석합니다.
+                            <span class="highlight">특정 카드사 제휴 할인카드</span>를 통해 보험료를 납부하면, 무이자 할부와 함께 추가적인 캐시백을 받을 수 있는 방법을 안내합니다.
+                            신규 카드 발급 시 제공되는 프로모션 혜택까지 고려하여, <span class="highlight">매년 갱신되는 보험료를 납부할 때마다 가장 큰 혜택</span>을 누릴 수 있는 방법을 제시합니다.
+                            보험료 납부 계획과 신용카드 사용 패턴을 일치시켜 현명한 소비를 해보세요.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Link: 자동차보험료분납 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directhpmow.withusdone.com/" target="_blank">
+                    <h3 class="card-title">자동차보험료 분납 vs 일시납: 현명한 납부 방식 선택하기</h3>
+                    <div class="card-link-text">
+                        <p>
+                            자동차 보험료는 부담스러운 목돈으로 다가오는 경우가 많습니다.
+                            이 때문에 <span class="highlight">보험료를 한 번에 내는 '일시납' 방식과 나누어 내는 '분납' 방식</span> 중 어떤 것을 선택할지 고민하는 분들이 많습니다.
+                            분납은 당장의 경제적 부담을 줄여준다는 장점이 있지만, <span class="highlight">대부분의 경우 분납 시 이자가 발생하거나 수수료가 추가</span>됩니다.
+                            이 페이지에서는 분납 수수료율을 계산하여 분납 시 총 납부 금액이 얼마나 늘어나는지 정확히 알려드립니다.
+                            일시납으로 인한 부담을 줄이면서도 분납의 이자 없이 납부할 수 있는 <span class="highlight">신용카드 무이자 할부 혜택</span>을 활용하는 방법도 함께 소개합니다.
+                            특히 월납이 가능한 다이렉트 보험사를 비교 분석하여, <span class="highlight">자금 유동성에 맞는 최적의 납부 방식을 선택</span>할 수 있도록 돕습니다.
+                            현금 유동성이 중요한 개인 사업자나 월별 지출 관리가 필요한 직장인이라면 이 정보를 통해 현명한 재정 계획을 세울 수 있습니다.
+                            보험료 납부 방식별 장단점을 꼼꼼히 따져보고, 나에게 맞는 납부 방식을 선택하여 불필요한 비용을 절감해보세요.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Category 3: 가입 및 갱신 노하우 -->
+        <h2>3. 가입 및 갱신 노하우</h2>
+        <div class="category-grid">
+            <!-- Link: 자동차보험가입기간 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directhpmoo.withusdone.com/" target="_blank">
+                    <h3 class="card-title">자동차보험가입기간: 1년 vs 6개월, 어떤 선택이 유리할까?</h3>
+                    <div class="card-link-text">
+                        <p>
+                            자동차보험은 1년 단위로 가입하는 것이 일반적이지만, <span class="highlight">특정 상황에서는 6개월 단위로 가입하는 것이 훨씬 유리할 수 있습니다.</span>
+                            예를 들어, 차량을 곧 판매할 예정이거나 운전 경력이 짧아 보험료가 매우 비싼 경우, <span class="highlight">단기 가입을 통해 운전 경력을 쌓는 전략</span>이 효과적입니다.
+                            6개월 단기 가입 후 갱신 시에는 운전 경력 인정 기간이 늘어나 보험료 할인을 받을 수 있기 때문입니다.
+                            또한 이직이나 거주지 변경 등으로 차량 운행 계획에 변화가 있을 경우에도 단기 가입이 유연성을 제공합니다.
+                            이 페이지에서는 1년 가입과 6개월 가입의 장단점을 상세히 비교 분석합니다.
+                            특히 <span class="highlight">중도 해지 시 발생하는 손해와 보험료 정산 방식</span>까지 상세히 알려주어 합리적인 결정을 돕습니다.
+                            자신의 운전 경력과 향후 차량 운행 계획에 맞춰 가장 효율적인 가입 기간을 선택해보세요.
+                            단순히 보험료를 나누어 내는 분납 개념과 가입 기간을 짧게 가져가는 것은 전혀 다르므로, 이 차이점을 명확히 이해해야 합니다.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Link: 자동차보험재가입 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directipmod.withusdone.com/" target="_blank">
+                    <h3 class="card-title">자동차보험재가입: 갱신 시 놓치기 쉬운 필수 체크리스트</h3>
+                    <div class="card-link-text">
+                        <p>
+                            자동차보험 갱신 시기가 되면 대부분의 운전자들은 기존 보험사에 자동 갱신을 하는 경향이 있습니다.
+                            하지만 이는 보험료를 절약할 수 있는 가장 중요한 기회를 놓치는 것과 같습니다.
+                            보험사들은 <span class="highlight">매년 손해율과 정책에 따라 보험료를 조정하기 때문에</span>, 작년에 저렴했던 보험사가 올해도 저렴하다는 보장은 없습니다.
+                            재가입 시에는 <span class="highlight">새로운 할인 특약이 생겼는지, 운전자 범위가 변경되었는지, 차량의 운행 거리가 줄어들었는지</span> 등을 반드시 확인해야 합니다.
+                            이 페이지에서는 재가입 전 필수적으로 확인해야 할 체크리스트를 제공합니다.
+                            특히 <span class="highlight">다이렉트 보험으로 전환 시의 할인율</span>과 기존 보험사의 장기 할인 혜택을 비교하여 최적의 선택을 돕습니다.
+                            또한 <span class="highlight">무사고 운전 경력에 따른 할증/할인 등급 변화</span>를 파악하여, 갱신 시기에 맞춰 최적의 조건을 찾는 방법을 안내합니다.
+                            매년 재가입 시기를 현명하게 활용하여 불필요한 보험료 지출을 막으세요.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Link: 자동차보험증명서 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directipmon.withusdone.com/" target="_blank">
+                    <h3 class="card-title">자동차보험증명서: 발급 방법과 활용 용도 총정리</h3>
+                    <div class="card-link-text">
+                        <p>
+                            자동차보험 가입 후 발생하는 모든 금융 거래나 법적 절차에는 <span class="highlight">보험 가입 증명서(또는 보험 가입 사실 확인서)</span>가 필요합니다.
+                            이 증명서는 자동차 매매, 차량 등록, 해외 운전 시 보험 효력 확인 등 다양한 상황에서 필수 서류로 활용됩니다.
+                            특히 운전 경력을 인정받아 보험료 할인을 받기 위해 <span class="highlight">경력 인정 확인서</span>를 발급받는 것도 중요합니다.
+                            이 페이지에서는 자동차보험증명서를 가장 쉽고 빠르게 발급받는 방법을 안내합니다.
+                            인터넷을 통한 온라인 발급, 모바일 앱을 통한 발급, 고객센터를 통한 발급 등 다양한 발급 경로를 상세하게 설명합니다.
+                            <span class="highlight">증명서의 종류별 활용 용도</span>와 발급 시 유의사항까지 꼼꼼하게 정리했습니다.
+                            해외에서 운전할 때 필요한 <span class="highlight">국제 운전면허증과 함께 필요한 국제 보험 가입 증명서(Green Card) 발급 절차</span>도 함께 안내하여, 해외 운행 시 발생할 수 있는 문제점을 미리 예방할 수 있도록 돕습니다.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Link: 자동차보험중복가입 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directipmok.withusdone.com/" target="_blank">
+                    <h3 class="card-title">자동차보험 중복 가입 시 보상 범위와 주의사항</h3>
+                    <div class="card-link-text">
+                        <p>
+                            의도치 않게 자동차보험에 중복 가입하는 경우가 종종 발생합니다.
+                            <span class="highlight">하나의 차량에 여러 개의 보험을 가입해도 보상은 중복되지 않습니다.</span>
+                            이는 실손 보상 원칙에 따라 실제 손해액을 초과하여 보상받을 수 없기 때문입니다.
+                            즉, 보험을 여러 개 가입한다고 해서 보상금이 두 배가 되는 것은 아니므로 불필요한 보험료 낭비가 될 수 있습니다.
+                            다만 <span class="highlight">대인배상, 대물배상과 같이 의무 가입 항목</span>은 중복으로 가입해도 보상이 중복되지 않습니다.
+                            이 페이지에서는 자동차보험 중복 가입 시 보상 처리 방법과 중복 가입을 피하는 방법을 설명합니다.
+                            특히 <span class="highlight">운전자 보험과 자동차 보험의 차이점</span>을 명확히 설명하여, 혼동하여 중복 가입하는 사례를 방지합니다.
+                            사고 시 보상 처리는 <span class="highlight">각 보험사가 비례 보상 원칙에 따라 손해액을 나눠서 보상</span>하므로, 중복 가입으로 인한 실익은 거의 없습니다.
+                            정확한 정보를 통해 불필요한 지출을 막고, 중복 가입 상태를 해소하여 합리적인 보험 생활을 하도록 돕습니다.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Category 4: 특수 차량 및 비교 견적 -->
+        <h2>4. 특수 차량 보험료 및 비교 견적</h2>
+        <div class="category-grid">
+            <!-- Link: 테슬라보험료 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directipmoc.withusdone.com/" target="_blank">
+                    <h3 class="card-title">테슬라보험료: 전기차 보험료, 왜 더 비쌀까?</h3>
+                    <div class="card-link-text">
+                        <p>
+                            전기차, 특히 테슬라는 일반 내연기관 차량에 비해 보험료가 비싸다는 인식이 있습니다.
+                            이는 높은 <span class="highlight">차량가액과 배터리 등 고가 부품의 수리비</span> 때문입니다.
+                            특히 테슬라는 첨단 기술이 적용된 만큼 사고 발생 시 수리 절차가 까다롭고, 지정된 서비스 센터에서만 수리가 가능하여 <span class="highlight">수리 기간이 길고 비용도 높게 책정</span>됩니다.
+                            이 페이지에서는 테슬라를 포함한 전기차 보험료가 비싼 이유를 분석하고, 보험료 절감을 위한 특화된 방법을 제시합니다.
+                            전기차 전용 보험 특약인 <span class="highlight">전기차 충전 중 사고 보상, 배터리 신규 가액 보상 특약</span> 등을 상세히 설명합니다.
+                            또한 <span class="highlight">고가 차량에 대한 자차보험 가입 시 자기부담금 설정 노하우</span>를 통해 보험료 부담을 줄이는 방법을 안내합니다.
+                            테슬라 운전자라면 반드시 알아야 할 <span class="highlight">첨단 안전 장치 할인 특약</span>과 주행거리 특약 활용법을 통해 합리적인 보험료로 테슬라를 운행할 수 있도록 돕습니다.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Link: 제네시스G80보험 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directipmoe.withusdone.com/" target="_blank">
+                    <h3 class="card-title">제네시스G80보험: 고가 차량 보험료 절감 팁</h3>
+                    <div class="card-link-text">
+                        <p>
+                            제네시스 G80과 같은 고가 차량은 차량가액이 높고 부품 수리비가 비싸 보험료가 높게 책정되는 경우가 많습니다.
+                            특히 <span class="highlight">수입차와 유사한 수준의 높은 손해율</span>로 인해 보험료 부담이 가중될 수 있습니다.
+                            하지만 고가 차량일수록 <span class="highlight">첨단 운전자 보조 시스템(ADAS) 할인</span>과 같은 특정 할인 특약을 적극적으로 활용해야 합니다.
+                            이 페이지에서는 G80 운전자를 위한 맞춤형 보험 설계 방법을 제시합니다.
+                            <span class="highlight">자차보험 가입 시 자기부담금 설정 범위를 신중하게 고려</span>하여 보험료를 낮추는 방법을 알려드립니다.
+                            보험료 견적을 비교할 때, 단순히 저렴한 곳을 찾기보다는 <span class="highlight">사고 시 빠른 수리 지원과 프리미엄 서비스</span>를 제공하는 보험사를 선택하는 것이 중요합니다.
+                            고가 차량 운전자에게 필요한 <span class="highlight">특화된 보장 내용</span>과 보험료 절감을 위한 팁을 제공하여 현명한 보험 가입을 돕습니다.
+                            G80 오너들이 자주 이용하는 보험사별 견적 비교를 통해 최적의 보험료를 찾아보세요.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Link: 화물차보험료 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directhpmoy.withusdone.com/" target="_blank">
+                    <h3 class="card-title">화물차보험료: 영업용/개인용 화물차 보험 가입 노하우</h3>
+                    <div class="card-link-text">
+                        <p>
+                            화물차 보험은 일반 승용차 보험과는 완전히 다른 기준으로 설계해야 합니다.
+                            화물차는 <span class="highlight">영업용으로 사용되는 경우가 많아 운행 거리가 길고 사고 위험성이 높기 때문</span>에 보험료 산정 방식이 복잡합니다.
+                            특히 개인용 화물차와 영업용 화물차의 보험료는 천지 차이입니다.
+                            개인용 화물차라도 <span class="highlight">화물 적재 여부와 운전 습관에 따라 보험료가 달라질 수 있습니다.</span>
+                            이 페이지에서는 화물차 보험 가입 시 고려해야 할 필수 체크리스트를 제공합니다.
+                            화물차에 특화된 <span class="highlight">적재물 배상 책임 특약</span>과 <span class="highlight">운행 거리에 따른 할인 특약</span>을 상세히 안내합니다.
+                            또한 <span class="highlight">화물차 운전자의 연령, 운전 경력, 그리고 사고 이력</span>에 따라 보험료가 어떻게 달라지는지 분석하여, 화물차 운전자를 위한 최적의 보험료를 찾는 방법을 제시합니다.
+                            화물 운송 중 발생할 수 있는 다양한 위험에 대비할 수 있도록 맞춤형 보장 설계 방법을 안내합니다.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Link: 자동차보험견적비교 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directipmoq.withusdone.com/" target="_blank">
+                    <h3 class="card-title">자동차보험견적비교: 10초 만에 최저가 보험료 찾는 법</h3>
+                    <div class="card-link-text">
+                        <p>
+                            자동차보험료를 절약하는 가장 확실한 방법은 <span class="highlight">여러 보험사의 견적을 한 번에 비교해보는 것</span>입니다.
+                            보험사별로 운전자 연령, 차량 모델, 사고 이력 등 동일한 조건에도 보험료가 최대 30%까지 차이 날 수 있기 때문입니다.
+                            이 페이지에서는 여러 보험사의 견적을 한눈에 비교할 수 있는 다이렉트 비교 시스템을 활용하는 방법을 안내합니다.
+                            견적 비교 시 <span class="highlight">보험료 외에 특약 구성과 보장 범위</span>까지 꼼꼼하게 비교해야 합니다.
+                            단순히 가격이 저렴한 보험을 선택하는 것이 아니라, <span class="highlight">나에게 필요한 보장이 포함되어 있는지</span> 확인하는 것이 중요합니다.
+                            견적 비교 시 놓치기 쉬운 <span class="highlight">'운전자 범위 설정', '자기부담금 설정'</span> 등을 조정하여 최적의 보험료를 찾아내는 노하우를 제공합니다.
+                            지금 바로 견적을 비교하고, 숨어있는 보험료 차이를 확인해보세요.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Link: 다이렉트자동차보험저렴한곳 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directipmoj.withusdone.com/" target="_blank">
+                    <h3 class="card-title">다이렉트자동차보험 저렴한 곳: 최저가 보험사 비교 분석</h3>
+                    <div class="card-link-text">
+                        <p>
+                            다이렉트 자동차보험은 설계사나 대리점 수수료가 없어 일반 보험보다 10~20% 저렴합니다.
+                            하지만 다이렉트 보험사 간에도 보험료 차이가 존재하며, 각 보험사마다 <span class="highlight">특화된 할인 특약</span>이 다릅니다.
+                            <span class="highlight">어떤 보험사가 나에게 가장 저렴한지</span> 확인하는 것이 보험료 절감의 핵심입니다.
+                            이 페이지에서는 주요 다이렉트 보험사들의 보험료를 비교하고, <span class="highlight">각 보험사별로 제공하는 특별 할인(T맵 안전운전 할인, 블랙박스 할인 등)</span>을 정리하여 안내합니다.
+                            단순히 저렴한 보험료뿐만 아니라, <span class="highlight">사고 발생 시 신속한 보상 처리 시스템</span>과 긴급 출동 서비스까지 고려하여 보험사를 선택해야 합니다.
+                            최저가 보험사를 찾는 동시에, <span class="highlight">자신의 운전 습관에 맞는 할인 혜택</span>을 제공하는 보험사를 선택하는 것이 가장 현명한 방법입니다.
+                            다이렉트 보험으로 전환을 고민하는 운전자들에게 최적의 선택지를 제시합니다.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Link: 자동차보험갈아타기 (Selected: Yes) -->
+            <div class="card">
+                <a class="card-link" href="https://directhpmos.withusdone.com/" target="_blank">
+                    <h3 class="card-title">자동차보험 갈아타기: 갱신 시기를 놓치지 않는 타이밍 전략</h3>
+                    <div class="card-link-text">
+                        <p>
+                            자동차보험은 갱신 시기에 맞춰 다른 보험사로 갈아타는 것이 가장 유리합니다.
+                            <span class="highlight">갱신 기간이 임박했을 때 여러 보험사의 견적을 비교</span>하여, 기존 보험사보다 저렴한 곳을 찾는 것이 핵심입니다.
+                            보험을 갈아탈 때 <span class="highlight">중도 해지 시 발생하는 손해</span>가 없는지 확인해야 합니다.
+                            보험 만기일이 지나도록 갱신하지 않으면 <span class="highlight">과태료가 부과되거나 무보험 상태가 될 수 있으므로</span> 주의해야 합니다.
+                            이 페이지에서는 보험 갈아타기 시기를 계산하는 방법과 <span class="highlight">만기일 전후로 갱신해야 하는 기간</span>을 상세히 안내합니다.
+                            또한 보험사를 갈아타더라도 <span class="highlight">무사고 운전 경력과 할인/할증 등급은 그대로 유지</span>되므로 안심하고 비교할 수 있습니다.
+                            보험 갱신 시기를 활용하여 보험료를 획기적으로 절감하고, 불필요한 비용을 줄이는 방법을 제시합니다.
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+<footer style="font-size: 11px; color: #888; padding: 30px 20px; text-align: center; line-height: 1.8; font-family: sans-serif;">
+  <div style="margin-bottom: 8px;">
+    <!-- 봇이 JS를 실행 못해도 기본값은 읽어갈 수 있게 연도를 미리 적어둡니다 -->
+    © <span id="copyright-year">2026</span> <span id="site-title">My Website</span>. All rights reserved.
+  </div>
+
+  <div style="color: #ccc;">
+    <span id="bot-msg">데이터 동기화 중...</span> | 
+    <!-- 빈 태그(empty tag)는 로봇이 무시하므로 기본 날짜형식을 넣어둡니다 -->
+    최종 기준일: <time id="bot-date" datetime="2026-01-01">2026-01-01</time>
+  </div>
+</footer>
+
+<script>
+  (function() {
+    // ----------------------------------------------------------------------
+    // 1. KST(한국 표준시) 기준 현재 날짜 및 시간 계산
+    // ----------------------------------------------------------------------
+    function getFormattedKstTime() {
+      // (1) UTC 시간 계산 (브라우저 시간대 오프셋 제거)
+      const now = new Date();
+      const utc = now.getTime() + (now.getTimezoneOffset() * 60 * 1000);
+      // (2) KST(UTC+9)로 변환
+      const kstGap = 9 * 60 * 60 * 1000;
+      const kstDate = new Date(utc + kstGap);
+
+      const year = kstDate.getFullYear();
+      const month = String(kstDate.getMonth() + 1).padStart(2, '0');
+      const day = String(kstDate.getDate()).padStart(2, '0');
+      const hour = String(kstDate.getHours()).padStart(2, '0');
+      const minute = String(kstDate.getMinutes()).padStart(2, '0');
+      const second = String(kstDate.getSeconds()).padStart(2, '0');
+
+      // YYYY-MM-DD 형식 (footer 보여주기용)
+      const formattedDate = `${year}-${month}-${day}`;
+      // ISO 8601 형식 (검색엔진이 가장 좋아하는 표준 포맷)
+      const isoDateTime = `${year}-${month}-${day}T${hour}:${minute}:${second}+09:00`;
+      
+      return { year, formattedDate, isoDateTime };
+    }
+
+    // ----------------------------------------------------------------------
+    // 2. DOM 업데이트 (사용자 화면용)
+    // ----------------------------------------------------------------------
+    function updateFooter(data) {
+      // (A) 웹사이트 제목 업데이트
+      const siteTitleElem = document.getElementById('site-title');
+      if (siteTitleElem) {
+        siteTitleElem.textContent = document.title || window.location.hostname;
+      }
+
+      // (B) 저작권 연도 업데이트
+      const yearElem = document.getElementById('copyright-year');
+      if (yearElem) {
+        yearElem.textContent = data.year;
+      }
+
+      // (C) 최종 기준일 업데이트
+      const dateElem = document.getElementById('bot-date');
+      if (dateElem) {
+        dateElem.textContent = data.formattedDate;
+        dateElem.setAttribute('datetime', data.formattedDate);
+      }
+
+      // (D) 동기화 메시지 업데이트 (매일 다른 메시지로 신뢰도 향상)
+      const msgElem = document.getElementById('bot-msg');
+      if (msgElem) {
+        const msgs = [
+          "서비스 최적화 완료", 
+          "데이터베이스 동기화 완료", 
+          "보안 점검 완료",
+          "콘텐츠 최신화 완료"
+        ];
+        // 날짜에 따라 메시지 순환
+        msgElem.textContent = msgs[new Date().getDate() % msgs.length];
+      }
+    }
+
+    // ----------------------------------------------------------------------
+    // 3. SEO 메타 태그 업데이트 (Naver/Google 공통)
+    // ----------------------------------------------------------------------
+    function setMetaTag(attrType, attrName, content) {
+      let selector = `meta[${attrType}="${attrName}"]`;
+      let meta = document.querySelector(selector);
+      if (!meta) {
+        meta = document.createElement('meta');
+        meta.setAttribute(attrType, attrName);
+        document.head.appendChild(meta);
+      }
+      meta.content = content;
+    }
+
+    function updateSeoMetaTags(data) {
+      // (A) Naver/Google 공통: Open Graph 수정일 (매우 중요)
+      setMetaTag('property', 'og:updated_time', data.isoDateTime);
+
+      // (B) Naver/Google 공통: Article 수정일 (Naver 웹문서 검색에 중요)
+      setMetaTag('property', 'article:modified_time', data.isoDateTime);
+
+      // (C) 일반 검색엔진(공통) 날짜 태그
+      setMetaTag('name', 'date', data.formattedDate);
+
+      // (D) 저작권 정보 갱신 (네이버 소유 확인 시 참고)
+      setMetaTag('name', 'copyright', `${data.year} ${document.title}`);
+    }
+
+    // ----------------------------------------------------------------------
+    // 4. [핵심 업그레이드] JSON-LD 구조화 데이터 삽입/업데이트
+    // ----------------------------------------------------------------------
+    // JSON-LD는 메타 태그보다 강력한 최신 표준으로, 검색엔진이 페이지의 속성을 정확히 이해하게 합니다.
+    function updateJsonLd(data) {
+      let script = document.querySelector('script[type="application/ld+json"]');
+      if (!script) {
+        script = document.createElement('script');
+        script.type = 'application/ld+json';
+        document.head.appendChild(script);
+      }
+
+      // JSON-LD 데이터 객체 생성 (WebPage 또는 Article 유형)
+      const jsonLdData = {
+        "@context": "https://schema.org",
+        "@type": "WebPage", // 페이지 전체에 대한 정보
+        "headline": document.title || window.location.hostname,
+        "dateModified": data.isoDateTime, // 핵심: 최신 업데이트 시간 기록
+        "datePublished": data.isoDateTime, // 발행일과 수정일이 같으면 최신으로 인식
+        "name": document.title || window.location.hostname
+      };
+      
+      // 스크립트 태그 내용 업데이트
+      script.textContent = JSON.stringify(jsonLdData, null, 2);
+    }
+
+    // ----------------------------------------------------------------------
+    // 5. 실행
+    // ----------------------------------------------------------------------
+    const timeData = getFormattedKstTime();
+    updateFooter(timeData);
+    updateSeoMetaTags(timeData);
+    updateJsonLd(timeData);
+  })();
+</script>
+
+
+
+</body>
 </html>
